@@ -58,7 +58,8 @@ int tryConnect(char* ip, char* token) {
 	char p2p_id[1035];
 	char username[1035];
 	char password[1035];
-	for(int i = 1; i <= 3; i = i + 1 ){
+	int i = 1;
+	for(i = 1; i <= 3; i = i + 1 ){
 		if (fgets(line, sizeof(line), fp) == NULL) {
 			DPRINTF("Can't read output line %d from command: %s\n", i, cmd);
 			DPRINTF("Error connecting to camera, make sure ip and token are correct.\n");
