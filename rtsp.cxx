@@ -44,7 +44,7 @@ extern "C" void* min(void *) {
 		close(fd);
 		
 		char const* inputFileName = MODE_RTSP_FIFO_FILE;
-		OutPacketBuffer::maxSize = 100000;
+		OutPacketBuffer::maxSize = 102400;
 		ServerMediaSession* sms
 			= ServerMediaSession::createNew(*env, streamName, streamName,
 			                                descriptionString);
