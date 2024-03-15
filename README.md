@@ -6,7 +6,7 @@ Proxy to enable xiaomi P2P only cameras to work with standard protocols.
  Known working models
 -----------
 * Xiaomi Aqara Smart Gateway IP Camera: **lumi.camera.aq1**
-* Other Xiaomi cameras should also work, please test and [report with a issue](https://github.com/miguelangel-nubla/videoP2Proxy/issues/new)
+* Other Xiaomi cameras should also work, please test and [report with a issue](https://github.com/StaRipper/videoP2Proxy/issues/new)
 
 Quick start on Raspbian
 -----------
