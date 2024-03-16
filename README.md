@@ -24,7 +24,7 @@ pip3 install python-miio
 
 ##### Clone repository
 ```
-git clone https://github.com/miguelangel-nubla/videoP2Proxy.git
+git clone https://github.com/StaRipper/videoP2Proxy.git
 cd videoP2Proxy
 ```
 
@@ -110,10 +110,3 @@ Known limitations
 - The program does not do any additional processing to the raw h264 video feed provided by the P2P camera.Some h264 decoders will like it less than others.
 - Given the nature of the UDP connection for the P2P client, some frames/data will be lost and video may freeze intermittently. It is the expected behaviour. You can only try to improve the network path.
 - This is a fast hack, pull requests welcome.
-
-
------------
-
-Was this useful to you? Consider donating  
-@PayPal: miguelangel.nubla@gmail.com  
-@bitcoin: bc1q2s5jdm7vem8ygv2fgxtfukmxuruyfsqjrexk3c
